@@ -27,5 +27,5 @@ app.use(cors({
 app.use('/api/v1', todoRoute);
 
 const server = app.listen(port, function(){
-  console.log('Listening on port ' + port);
+  console.log('Listening on port ' + 4000);
 });
